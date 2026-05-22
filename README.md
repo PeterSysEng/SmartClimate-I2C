@@ -48,6 +48,6 @@ To compile and run:
 `gcc -o logger logger.c`
 `sudo ./logger`
 
-[![Watch the video](https://img.youtube.com/vi/Wgp3kLLGPkA/0.jpg)](https://www.youtube.com/watch?v=mS1VBagZzfg)
+[![Watch the video](https://img.youtube.com/vi/mS1VBagZzfg/0.jpg)](https://www.youtube.com/watch?v=mS1VBagZzfg)
 
 *Developed by PeterSysEng - Electronics Technician & Embedded Systems Developer*
