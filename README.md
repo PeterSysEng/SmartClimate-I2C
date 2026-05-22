@@ -17,6 +17,18 @@ Detta projekt demonstrerar en avancerad arkitektur för inbyggda system genom at
 *   **Fasttalsteknik**: Optimerad kodexekvering genom att helt undvika datatypen `float`. All databehandling sker med heltalsmatematik för att minimera CPU-belastningen.
 *   **Diagnostik**: Inkluderar en datalogger i C för PC (Debian Linux) för att strömma, tidsstämpla och spara rådata till en `.csv`-fil.
 
+## Hardware Used
+*   **Board**: STM32F103RB (Nucleo-64)
+*   **Peripherals**: AHT20 + BMP280 sensor (I2C).
+
+## How to Build
+I use a custom CMake-based build system.
+1. Generate the build files:
+   ```bash
+   ./myCmakeGen2.sh
+   ```
+2. The project will compile and generate a `build/[project_name].elf` file.
+
 ## 🛠️ Hardware Setup (PB8 / PB9)
 *   **VCC** ➡️ 3.3V
 *   **GND** ➡️ GND
